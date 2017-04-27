@@ -14,8 +14,8 @@ public class MainActivity extends FragmentActivity implements HeadlinesFragment.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
-        setContentView(R.layout.news_articles);
+        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.news_articles);
 
         // Check that the activity is using the layout version with
         // the fragment_container FrameLayout

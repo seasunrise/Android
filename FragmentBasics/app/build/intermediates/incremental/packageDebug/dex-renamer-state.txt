@@ -1,4 +1,4 @@
-#Mon Apr 24 21:18:14 JST 2017
+#Thu Apr 27 19:43:39 JST 2017
 base.0=/Users/dylanyin/AndroidStudioProjects/FragmentBasics/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_91268f99e1a591dc8aa21404e3d98e5641e7b9c2
 renamed.1=classes.dex
 renamed.0=classes2.dex

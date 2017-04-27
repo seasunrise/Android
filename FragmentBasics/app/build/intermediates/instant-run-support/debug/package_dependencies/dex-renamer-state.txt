@@ -1,4 +1,4 @@
-#Mon Apr 24 21:16:22 JST 2017
+#Thu Apr 27 19:43:39 JST 2017
 base.0=/Users/dylanyin/AndroidStudioProjects/FragmentBasics/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_699e82f773a751cb04471a986682122da986de66
 renamed.0=classes.dex
 file.0=/Users/dylanyin/AndroidStudioProjects/FragmentBasics/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_699e82f773a751cb04471a986682122da986de66/classes.dex
