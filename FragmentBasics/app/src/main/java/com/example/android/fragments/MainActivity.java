@@ -15,6 +15,8 @@
  */
 package com.example.android.fragments;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
@@ -49,6 +51,15 @@ public class MainActivity extends FragmentActivity
             // Add the fragment to the 'fragment_container' FrameLayout
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.fragment_container, firstFragment).commit();
+            //Context context = getActivity();
+            Context context = this;
+            SharedPreferences sharedPref = context.getSharedPreferences(
+                    getString(R.string.preference_file_key), Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPref.edit();
+            int newHighScore = 2;
+            editor.putInt(getString(R.string.saved_high_score), newHighScore);
+            editor.commit();
+
         }
     }
 
